@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>STRICT</title>
+        <link href="index.css" rel="stylesheet" type="text/css"/>
+        <link href="fonts/font-awesome-4.6.3/font-awesome-4.6.3/css/font-awesome.css" rel="stylesheet" type="text/css"/>
+        <link href="fonts/font-awesome-4.6.3/font-awesome-4.6.3/css/font-awesome.min.css" rel="stylesheet" type="text/css"/>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+  // Add smooth scrolling to all links
+  $("a").on('click', function(event) {
+
+    // Make sure this.hash has a value before overriding default behavior
+    if (this.hash !== "") {
+      // Prevent default anchor click behavior
+      event.preventDefault();
+
+      // Store hash
+      var hash = this.hash;
+
+      // Using jQuery's animate() method to add smooth page scroll
+      // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
+      $('html, body').animate({
+        scrollTop: $(hash).offset().top
+      }, 800, function(){
+   
+        // Add hash (#) to URL when done scrolling (default click behavior)
+        window.location.hash = hash;
+      });
+    } // End if
+  });
+});
+</script>
+    </head>
+    <body>
+        <section class="logosec">
+            <img class="logo" src="images/logo.png" alt="logo">
+            <aside class="strict_logo_text">STRICT</aside>
+        </section>
+        <section class="top_back">
+            <h1>STRICT</h1>
+            <aside class="strict_big_line"></aside>
+            <p class="strict">STRICT is a responsive theme with a clean and minimal look.</p>
+            <button class="strict">Call to action</button>
+            <aside class="arrow"><i class="fa fa-chevron-down" aria-hidden="true"></i></aside>
+        </section>
+        <section class="simple_pure_design">
+            <article class="simple_pure_design_p">Simple & pure design.</article>
+            <article class="simple_pure_design_p spd_description">
+                Designers everywhere gush with admiration upon seeing a web design and exclaim "its beautiful, it's so clean!". There are a
+                countless number of webdesign round-ups dedicated to 'clean' design and it is a term thrown around quite a bit in the web 
+                design community. It can be easy to spot a good example of clean design.
+            </article>
+        </section>
+        <section class="three_icons">
+            <aside class="three_box_possition">
+                <aside class="three_box">
+                    <img class="three_icons_main" src="images/icon1.png">
+                    <article class="icon_text">Optimized for all devices</article>
+                    <article class="icon_description">STRICT has been designed to be fully responsive on all devices</article>
+                </aside>
+                <aside class="three_box two_box">
+                    <img class="three_icons_main" src="images/icon2.png">
+                    <article class="icon_text">Clean & Minimal Design</article>
+                    <article class="icon_description">This multipurpose theme is especially created to be used for different projects.</article>
+                </aside>
+                <aside class="three_box two_box">
+                    <img class="three_icons_main" src="images/icon3.png">
+                    <article class="icon_text">Font Awesome Icon</article>
+                    <article class="icon_description">This multipurpose theme is especially created to be used for different projects.</article>
+                </aside>
+            </aside>
+        </section>
+        <section class="showcase">
+            <article class="showcase_title">Showcase your work like a pro.</article>
+            <article class="showcase_title0">Contact me if you like my work</article>
+            <aside class="portfolio">
+                <img class="portfolio_images" src="images/portfolio1.png">
+                <img class="portfolio_images portfolio_images_margin" src="images/Portfolio2.png">
+                <img class="portfolio_images portfolio_images_margin" src="images/portfolio3.png">
+                <img class="portfolio_images" src="images/portfolio4.png">
+                <img class="portfolio_images portfolio_images_margin" src="images/portfolio5.png">
+                <img class="portfolio_images portfolio_images_margin" src="images/portfolio6.png">
+            </aside>
+        </section>
+        <section class="bottom_bg">
+            <article class="stay_with_us">Stay with us</article>
+            <article class="we_ensure">We ensure quality & support</article>
+            <form class="full_name">
+                <input class="inputs" type="text" name="Full Name" placeholder="Full Name">
+                <input class="inputs input2" type="email" name="Full Name" placeholder="Email">
+                <textarea class="text_area" rows="3" placeholder="Message"></textarea><br><br>
+                <input class="check_box" type="checkbox" name="Subscribe">
+                <article class="sn">Subscribe Newsletter</article>
+                <button class="sn_button">Send</button>
+            </form>
+        </section>
+        <footer>
+            <aside class="copyright">
+                <article>Copyritht 2014, STRICT</article>
+            </aside>
+            <aside>
+                <ul style="list-style-type: none">
+                    <li><img src="images/facebook.png"></li>
+                    <li><img src="images/googleplus.png"></li>
+                    <li><img src="images/twitter.png"></li>
+                    <li><img src="images/linkedin.png"></li>
+                </ul>
+            </aside>
+        </footer>
+    </body>
+</html>

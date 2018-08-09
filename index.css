@@ -1,0 +1,323 @@
+@font-face
+{
+    font-family:myfont;
+    src:url(fonts/lato.ttf);
+}
+
+
+
+body
+{
+    background:lightgray;
+    padding-top:50px;
+    border:1px solid black;
+    border-style: none;
+    width:1200px;
+    height:auto;
+    margin: 0 auto;
+    font-family: myfont;
+}
+
+.logosec
+{
+    background: white;
+    width:1200px;
+    height:80px;
+}
+
+.logo
+{
+    padding-top:20px;
+    padding-left:200px;
+    float: left;
+}
+
+.strict_logo_text
+{
+    padding-top:30px;
+    padding-left:10px;
+    float: left;
+    font-weight: bold;
+    color: #2d3950;
+}
+.top_back
+{
+    background-image: url(images/Top_back.png);
+    width: 1200px;
+    height: 600px;
+    text-align: center;
+    float:left;
+}
+
+h1,h2,h3,h4,h5,h6
+{
+  font-size:100px;
+  color:white;
+  margin-top:130px;
+}
+
+.strict_big_line
+{
+    border:1px solid #15a4fa;
+    width: 470px;
+    margin: 0 auto;
+    margin-top: -80px;
+}
+
+p.strict
+{
+    color: white;
+    margin-top:30px;
+}
+
+button.strict
+{
+    border: 1px solid #15a4fa;
+    border-radius:3px;
+    background: transparent;
+    width:140px;
+    height: 40px;
+    color: white;
+    font-family: myfont;
+    margin-top:30px;
+}
+
+.arrow
+{
+    margin-top: 140px;
+    color: white;
+    overflow: hidden;
+}
+
+.simple_pure_design
+{
+    background: white;
+    width: 1200px;
+    height:250px;
+    float:left;
+}
+
+.simple_pure_design_p
+{
+    font-size: 50px;
+    color: #2d3950;
+    text-align: center;
+    margin-top:50px;
+}
+
+.spd_description
+{
+    font-size: 15px;
+    text-align: center;
+    padding: 0px 200px;
+    color: #a0a0a0;
+    line-height: 25px;
+    margin-top: 20px;
+}
+
+.three_icons
+{
+    background: white;
+    width:1200px;
+    height: 300px;
+    float: left;
+}
+
+.three_box_possition
+{
+    padding: 50px 200px;
+    
+}
+
+.three_box
+{
+    background: white;
+    width: 250px;
+    height: 250px;
+    float:left;
+}
+
+.two_box
+{
+    margin-left:25px;
+}
+
+.three_icons_main
+{
+    padding:10px 80px 0px;
+}
+
+.icon_text
+{
+    font-size: 20px;
+    text-align: center;
+    color:#2d3950;
+    margin-top:10px;
+}
+
+.icon_description
+{
+    text-align: center;
+    color:#a1a1a1;
+    font-size: 12px;
+    margin-top: 10px;
+}
+
+.showcase
+{
+    background: white;
+    width: 1200px;
+    height:600px;
+    float: left;
+}
+
+.showcase_title
+{
+    text-align: center;
+    font-size: 50px;
+    color:#2d3950;
+    margin-top: 20px;
+}
+
+.showcase_title0
+{
+    text-align: center;
+    color:#909090;
+    margin-top:10px;
+    font-size: 15px;
+}
+
+.portfolio
+{
+    padding:50px 200px;
+}
+
+.portfolio_images
+{
+    width: 240px;
+    height:170px;
+    float: left;
+    margin-top: 20px;
+}
+
+.portfolio_images_margin
+{
+    margin-left: 20px;
+}
+
+.bottom_bg
+{
+    background: url("images/bottom_bg.png") no-repeat;
+    width: 100%;
+    height: 100%;
+    float: left;
+}
+
+.stay_with_us
+{
+    text-align: center;
+    color: white;
+    font-size: 50px;
+    margin-top: 30px;
+}
+
+.we_ensure
+{
+    text-align: center;
+    color:#939495;
+    font-size: 19px;
+    margin-top: 10px;
+}
+
+.full_name
+{
+    padding: 30px 350px;
+}
+
+.inputs
+{
+    background: transparent;
+    border:1px solid gray;
+    border-radius: 3px;
+    width: 450px;
+    height: 40px;
+    font-family: myfont;
+    padding-left: 15px;
+    color:gray;
+}
+
+.input2
+{
+    margin-top: 15px;
+}
+
+.text_area
+{
+    border:1px solid gray;
+    background:transparent;
+    font-family: myfont;
+    color: gray;
+    margin-top:15px;
+    width: 435px;
+    border-radius: 3px;
+    padding:15px 15px 0px 15px;
+}
+
+.check_box
+{
+    border-radius:3px;
+    width: 15px;
+    height: 15px;
+}
+
+.sn
+{
+    font-size: 10px;
+    color:white;
+    margin-left: 25px;
+    margin-top: -18px;
+}
+
+.sn_button
+{
+    background: transparent;
+    border:1px solid #15a4fa;
+    border-radius: 3px;
+    width: 150px;
+    height: 40px;
+    margin-top: -25px;
+    margin-right: 35px;
+    margin-bottom:135px;
+    float:right;
+    color:white;
+    font-family:myfont;
+}
+
+footer
+{
+    background: white;
+    width: 1200px;
+    height: 70px;
+    margin-bottom: 50px;
+    float: left;
+}
+
+.copyright
+{
+    padding-top: 25px;
+    padding-left: 200px;
+    color:#999999;
+    float:left;
+}
+
+ul
+{
+    padding-right:250px;
+    float:right;
+}
+
+li
+{
+    margin-left: 5px;
+    float:left;
+}
